@@ -86,9 +86,9 @@
             // BtnFullRoom
             // 
             this.BtnFullRoom.BackColor = System.Drawing.Color.Red;
-            this.BtnFullRoom.Location = new System.Drawing.Point(515, 360);
+            this.BtnFullRoom.Location = new System.Drawing.Point(515, 349);
             this.BtnFullRoom.Name = "BtnFullRoom";
-            this.BtnFullRoom.Size = new System.Drawing.Size(78, 44);
+            this.BtnFullRoom.Size = new System.Drawing.Size(78, 55);
             this.BtnFullRoom.TabIndex = 10;
             this.BtnFullRoom.Text = "Full";
             this.BtnFullRoom.UseVisualStyleBackColor = false;
@@ -126,9 +126,9 @@
             // BtnEmptyRoom
             // 
             this.BtnEmptyRoom.BackColor = System.Drawing.Color.LawnGreen;
-            this.BtnEmptyRoom.Location = new System.Drawing.Point(407, 360);
+            this.BtnEmptyRoom.Location = new System.Drawing.Point(407, 349);
             this.BtnEmptyRoom.Name = "BtnEmptyRoom";
-            this.BtnEmptyRoom.Size = new System.Drawing.Size(78, 44);
+            this.BtnEmptyRoom.Size = new System.Drawing.Size(78, 55);
             this.BtnEmptyRoom.TabIndex = 9;
             this.BtnEmptyRoom.Text = "Empty";
             this.BtnEmptyRoom.UseVisualStyleBackColor = false;
