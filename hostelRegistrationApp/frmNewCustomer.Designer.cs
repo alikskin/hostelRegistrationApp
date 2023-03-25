@@ -114,7 +114,8 @@
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "Male",
-            "Female"});
+            "Female",
+            "Belirsiz"});
             this.comboBox1.Location = new System.Drawing.Point(147, 77);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(221, 24);
@@ -320,9 +321,9 @@
             // BtnNo109
             // 
             this.BtnNo109.BackColor = System.Drawing.Color.LawnGreen;
-            this.BtnNo109.Location = new System.Drawing.Point(289, 133);
+            this.BtnNo109.Location = new System.Drawing.Point(273, 192);
             this.BtnNo109.Name = "BtnNo109";
-            this.BtnNo109.Size = new System.Drawing.Size(78, 44);
+            this.BtnNo109.Size = new System.Drawing.Size(103, 75);
             this.BtnNo109.TabIndex = 8;
             this.BtnNo109.Text = "109";
             this.BtnNo109.UseVisualStyleBackColor = false;
@@ -331,9 +332,9 @@
             // BtnNo108
             // 
             this.BtnNo108.BackColor = System.Drawing.Color.LawnGreen;
-            this.BtnNo108.Location = new System.Drawing.Point(152, 133);
+            this.BtnNo108.Location = new System.Drawing.Point(139, 191);
             this.BtnNo108.Name = "BtnNo108";
-            this.BtnNo108.Size = new System.Drawing.Size(78, 44);
+            this.BtnNo108.Size = new System.Drawing.Size(103, 75);
             this.BtnNo108.TabIndex = 7;
             this.BtnNo108.Text = "108";
             this.BtnNo108.UseVisualStyleBackColor = false;
@@ -342,7 +343,7 @@
             // BtnFullRoom
             // 
             this.BtnFullRoom.BackColor = System.Drawing.Color.Red;
-            this.BtnFullRoom.Location = new System.Drawing.Point(289, 291);
+            this.BtnFullRoom.Location = new System.Drawing.Point(298, 302);
             this.BtnFullRoom.Name = "BtnFullRoom";
             this.BtnFullRoom.Size = new System.Drawing.Size(78, 44);
             this.BtnFullRoom.TabIndex = 10;
@@ -353,9 +354,9 @@
             // BtnNo106
             // 
             this.BtnNo106.BackColor = System.Drawing.Color.LawnGreen;
-            this.BtnNo106.Location = new System.Drawing.Point(289, 77);
+            this.BtnNo106.Location = new System.Drawing.Point(273, 108);
             this.BtnNo106.Name = "BtnNo106";
-            this.BtnNo106.Size = new System.Drawing.Size(78, 44);
+            this.BtnNo106.Size = new System.Drawing.Size(103, 75);
             this.BtnNo106.TabIndex = 5;
             this.BtnNo106.Text = "106";
             this.BtnNo106.UseVisualStyleBackColor = false;
@@ -364,9 +365,9 @@
             // BtnNo107
             // 
             this.BtnNo107.BackColor = System.Drawing.Color.LawnGreen;
-            this.BtnNo107.Location = new System.Drawing.Point(14, 133);
+            this.BtnNo107.Location = new System.Drawing.Point(6, 192);
             this.BtnNo107.Name = "BtnNo107";
-            this.BtnNo107.Size = new System.Drawing.Size(78, 44);
+            this.BtnNo107.Size = new System.Drawing.Size(103, 75);
             this.BtnNo107.TabIndex = 6;
             this.BtnNo107.Text = "107";
             this.BtnNo107.UseVisualStyleBackColor = false;
@@ -375,9 +376,9 @@
             // BtnNo105
             // 
             this.BtnNo105.BackColor = System.Drawing.Color.LawnGreen;
-            this.BtnNo105.Location = new System.Drawing.Point(152, 77);
+            this.BtnNo105.Location = new System.Drawing.Point(139, 108);
             this.BtnNo105.Name = "BtnNo105";
-            this.BtnNo105.Size = new System.Drawing.Size(78, 44);
+            this.BtnNo105.Size = new System.Drawing.Size(103, 75);
             this.BtnNo105.TabIndex = 4;
             this.BtnNo105.Text = "105";
             this.BtnNo105.UseVisualStyleBackColor = false;
@@ -386,7 +387,7 @@
             // BtnEmptyRoom
             // 
             this.BtnEmptyRoom.BackColor = System.Drawing.Color.LawnGreen;
-            this.BtnEmptyRoom.Location = new System.Drawing.Point(151, 291);
+            this.BtnEmptyRoom.Location = new System.Drawing.Point(164, 302);
             this.BtnEmptyRoom.Name = "BtnEmptyRoom";
             this.BtnEmptyRoom.Size = new System.Drawing.Size(78, 44);
             this.BtnEmptyRoom.TabIndex = 9;
@@ -397,9 +398,9 @@
             // BtnNo103
             // 
             this.BtnNo103.BackColor = System.Drawing.Color.LawnGreen;
-            this.BtnNo103.Location = new System.Drawing.Point(289, 21);
+            this.BtnNo103.Location = new System.Drawing.Point(273, 21);
             this.BtnNo103.Name = "BtnNo103";
-            this.BtnNo103.Size = new System.Drawing.Size(78, 44);
+            this.BtnNo103.Size = new System.Drawing.Size(103, 72);
             this.BtnNo103.TabIndex = 2;
             this.BtnNo103.Text = "103";
             this.BtnNo103.UseVisualStyleBackColor = false;
@@ -408,9 +409,9 @@
             // BtnNo104
             // 
             this.BtnNo104.BackColor = System.Drawing.Color.LawnGreen;
-            this.BtnNo104.Location = new System.Drawing.Point(14, 77);
+            this.BtnNo104.Location = new System.Drawing.Point(6, 108);
             this.BtnNo104.Name = "BtnNo104";
-            this.BtnNo104.Size = new System.Drawing.Size(78, 44);
+            this.BtnNo104.Size = new System.Drawing.Size(103, 75);
             this.BtnNo104.TabIndex = 3;
             this.BtnNo104.Text = "104";
             this.BtnNo104.UseVisualStyleBackColor = false;
@@ -419,9 +420,9 @@
             // BtnNo102
             // 
             this.BtnNo102.BackColor = System.Drawing.Color.LawnGreen;
-            this.BtnNo102.Location = new System.Drawing.Point(152, 21);
+            this.BtnNo102.Location = new System.Drawing.Point(139, 21);
             this.BtnNo102.Name = "BtnNo102";
-            this.BtnNo102.Size = new System.Drawing.Size(78, 44);
+            this.BtnNo102.Size = new System.Drawing.Size(103, 72);
             this.BtnNo102.TabIndex = 1;
             this.BtnNo102.Text = "102";
             this.BtnNo102.UseVisualStyleBackColor = false;
@@ -430,9 +431,9 @@
             // BtnNo101
             // 
             this.BtnNo101.BackColor = System.Drawing.Color.LawnGreen;
-            this.BtnNo101.Location = new System.Drawing.Point(14, 21);
+            this.BtnNo101.Location = new System.Drawing.Point(6, 21);
             this.BtnNo101.Name = "BtnNo101";
-            this.BtnNo101.Size = new System.Drawing.Size(78, 44);
+            this.BtnNo101.Size = new System.Drawing.Size(103, 75);
             this.BtnNo101.TabIndex = 0;
             this.BtnNo101.Text = "101";
             this.BtnNo101.UseVisualStyleBackColor = false;
@@ -453,6 +454,7 @@
             this.Name = "frmNewCustomer";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Add New Customer";
+            this.Load += new System.EventHandler(this.frmNewCustomer_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);

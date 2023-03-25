@@ -58,6 +58,12 @@
     <Compile Include="frmCustomers.Designer.cs">
       <DependentUpon>frmCustomers.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmIncomeCost.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIncomeCost.Designer.cs">
+      <DependentUpon>frmIncomeCost.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmMainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,6 +75,12 @@
     </Compile>
     <Compile Include="frmNewCustomer.Designer.cs">
       <DependentUpon>frmNewCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmReceivedItems.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReceivedItems.Designer.cs">
+      <DependentUpon>frmReceivedItems.cs</DependentUpon>
     </Compile>
     <Compile Include="frmRooms.cs">
       <SubType>Form</SubType>
@@ -84,11 +96,17 @@
     <EmbeddedResource Include="frmCustomers.resx">
       <DependentUpon>frmCustomers.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmIncomeCost.resx">
+      <DependentUpon>frmIncomeCost.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmMainForm.resx">
       <DependentUpon>frmMainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmNewCustomer.resx">
       <DependentUpon>frmNewCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReceivedItems.resx">
+      <DependentUpon>frmReceivedItems.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmRooms.resx">
       <DependentUpon>frmRooms.cs</DependentUpon>

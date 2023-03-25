@@ -46,5 +46,38 @@ namespace hostelRegistrationApp
         {
             MessageBox.Show("github.com/alikskin  -  www.linkedin.com/in/alikskin");
         }
+
+        private void frmMainForm_Activated(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Maximized;
+        }
+
+        private void frmMainForm_Load(object sender, EventArgs e)
+        {
+            timer1.Start();
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            lblDate.Text = DateTime.Now.ToLongDateString();
+            lblHour.Text = DateTime.Now.ToLongTimeString();
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btnIncomeCost_Click(object sender, EventArgs e)
+        {
+            frmIncomeCost fr = new frmIncomeCost(); 
+            fr.Show();  
+        }
+
+        private void btnStock_Click(object sender, EventArgs e)
+        {
+            frmReceivedItems fr = new frmReceivedItems();
+            fr.Show();
+        }
     }
 }

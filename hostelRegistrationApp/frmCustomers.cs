@@ -71,11 +71,87 @@ namespace hostelRegistrationApp
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
-            connection.Open();
-            SqlCommand command = new SqlCommand("delete from AddCustomer where CustomerID=(" + id + ")", connection);
-            command.ExecuteNonQuery();
-            connection.Close();
-            dataShow();
+            if (TxtRoomNo.Text == "101")
+            {
+                connection.Open();
+                SqlCommand command = new SqlCommand("delete from room101", connection);
+                command.ExecuteNonQuery();
+                connection.Close();
+                dataShow();
+            }
+
+            if (TxtRoomNo.Text == "102")
+            {
+                connection.Open();
+                SqlCommand command = new SqlCommand("delete from room102", connection);
+                command.ExecuteNonQuery();
+                connection.Close();
+                dataShow();
+            }
+
+            if (TxtRoomNo.Text == "103")
+            {
+                connection.Open();
+                SqlCommand command = new SqlCommand("delete from room103", connection);
+                command.ExecuteNonQuery();
+                connection.Close();
+                dataShow();
+            }
+
+            if (TxtRoomNo.Text == "104")
+            {
+                connection.Open();
+                SqlCommand command = new SqlCommand("delete from room104", connection);
+                command.ExecuteNonQuery();
+                connection.Close();
+                dataShow();
+            }
+
+            if (TxtRoomNo.Text == "105")
+            {
+                connection.Open();
+                SqlCommand command = new SqlCommand("delete from room105", connection);
+                command.ExecuteNonQuery();
+                connection.Close();
+                dataShow();
+            }
+
+            if (TxtRoomNo.Text == "106")
+            {
+                connection.Open();
+                SqlCommand command = new SqlCommand("delete from room106", connection);
+                command.ExecuteNonQuery();
+                connection.Close();
+                dataShow();
+            }
+
+            if (TxtRoomNo.Text == "107")
+            {
+                connection.Open();
+                SqlCommand command = new SqlCommand("delete from room107", connection);
+                command.ExecuteNonQuery();
+                connection.Close();
+                dataShow();
+            }
+
+            if (TxtRoomNo.Text == "108")
+            {
+                connection.Open();
+                SqlCommand command = new SqlCommand("delete from room108", connection);
+                command.ExecuteNonQuery();
+                connection.Close();
+                dataShow();
+            }
+
+            if (TxtRoomNo.Text == "109")
+            {
+                connection.Open();
+                SqlCommand command = new SqlCommand("delete from room109", connection);
+                command.ExecuteNonQuery();
+                connection.Close();
+                dataShow();
+            }
+            Application.Restart();
         }
 
         private void btnClearScreen_Click(object sender, EventArgs e)

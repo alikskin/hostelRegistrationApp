@@ -31,13 +31,13 @@ namespace hostelRegistrationApp
 
             while (read_1.Read())
             {
-                BtnNo101.Text = read_1["Name"].ToString() + " " + read_1["LastName"].ToString() + " " + read_1["RoomNo"];
+                BtnNo101.Text = read_1["Name"].ToString() + " " + read_1["LastName"].ToString() + " " + read_1["RoomNo"].ToString();
             }
-            connection.Close();
             if (BtnNo101.Text != "101")
             {
                 BtnNo101.BackColor = Color.Red;
             }
+            connection.Close();
 
             //room-2
             connection.Open();
@@ -48,11 +48,11 @@ namespace hostelRegistrationApp
             {
                 BtnNo102.Text = read_2["Name"].ToString() + " " + read_2["LastName"].ToString() + " " + read_2["RoomNo"];
             }
-            connection.Close();
             if (BtnNo102.Text != "102")
             {
                 BtnNo102.BackColor = Color.Red;
             }
+            connection.Close();
 
             //room-3
             connection.Open();
@@ -63,11 +63,11 @@ namespace hostelRegistrationApp
             {
                 BtnNo103.Text = read_3["Name"].ToString() + " " + read_3["LastName"].ToString() + " " + read_3["RoomNo"];
             }
-            connection.Close();
             if (BtnNo103.Text != "103")
             {
                 BtnNo103.BackColor = Color.Red;
             }
+            connection.Close();
 
             //room-4
             connection.Open();
@@ -78,11 +78,11 @@ namespace hostelRegistrationApp
             {
                 BtnNo104.Text = read_4["Name"].ToString() + " " + read_4["LastName"].ToString() + " " + read_4["RoomNo"];
             }
-            connection.Close();
             if (BtnNo104.Text != "104")
             {
                 BtnNo104.BackColor = Color.Red;
             }
+            connection.Close();
 
             //room-5
             connection.Open();
@@ -93,11 +93,11 @@ namespace hostelRegistrationApp
             {
                 BtnNo105.Text = read_5["Name"].ToString() + " " + read_5["LastName"].ToString() + " " + read_5["RoomNo"];
             }
-            connection.Close();
             if (BtnNo105.Text != "105")
             {
                 BtnNo105.BackColor = Color.Red;
             }
+            connection.Close();
 
             //room-6
             connection.Open();
@@ -108,11 +108,11 @@ namespace hostelRegistrationApp
             {
                 BtnNo106.Text = read_6["Name"].ToString() + " " + read_6["LastName"].ToString() + " " + read_6["RoomNo"];
             }
-            connection.Close();
             if (BtnNo106.Text != "106")
             {
                 BtnNo106.BackColor = Color.Red;
             }
+            connection.Close();
 
             //room-7
             connection.Open();
@@ -123,11 +123,11 @@ namespace hostelRegistrationApp
             {
                 BtnNo107.Text = read_7["Name"].ToString() + " " + read_7["LastName"].ToString() + " " + read_7["RoomNo"];
             }
-            connection.Close();
             if (BtnNo107.Text != "107")
             {
                 BtnNo107.BackColor = Color.Red;
             }
+            connection.Close();
 
             //room-8
             connection.Open();
@@ -138,11 +138,11 @@ namespace hostelRegistrationApp
             {
                 BtnNo108.Text = read_8["Name"].ToString() + " " + read_8["LastName"].ToString() + " " + read_8["RoomNo"];
             }
-            connection.Close();
             if (BtnNo108.Text != "108")
             {
                 BtnNo108.BackColor = Color.Red;
             }
+            connection.Close();
 
             //room-9
             connection.Open();
@@ -153,11 +153,11 @@ namespace hostelRegistrationApp
             {
                 BtnNo109.Text = read_9["Name"].ToString() + " " + read_9["LastName"].ToString() + " " + read_9["RoomNo"];
             }
-            connection.Close();
             if (BtnNo109.Text != "109")
             {
                 BtnNo109.BackColor = Color.Red;
             }
+            connection.Close();
         }
     }
 }
