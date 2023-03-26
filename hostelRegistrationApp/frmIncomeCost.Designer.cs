@@ -30,12 +30,12 @@
         {
             this.lblInCase = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.lblTotalProducts = new System.Windows.Forms.Label();
+            this.lblFood = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.lblStaffSalaries = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.lblPayments = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
+            this.lblElectric = new System.Windows.Forms.Label();
+            this.lblResult = new System.Windows.Forms.Label();
             this.txtPersonelPrice = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.btnAdd = new System.Windows.Forms.Button();
@@ -44,6 +44,11 @@
             this.label12 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.txtStaffSalary = new System.Windows.Forms.TextBox();
+            this.lblDrinks = new System.Windows.Forms.Label();
+            this.lblNuts = new System.Windows.Forms.Label();
+            this.lblWater = new System.Windows.Forms.Label();
+            this.lblInt = new System.Windows.Forms.Label();
+            this.btnTotal = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblInCase
@@ -66,15 +71,15 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "Total Money in the Case :";
             // 
-            // lblTotalProducts
+            // lblFood
             // 
-            this.lblTotalProducts.AutoSize = true;
-            this.lblTotalProducts.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblTotalProducts.Location = new System.Drawing.Point(212, 70);
-            this.lblTotalProducts.Name = "lblTotalProducts";
-            this.lblTotalProducts.Size = new System.Drawing.Size(21, 16);
-            this.lblTotalProducts.TabIndex = 0;
-            this.lblTotalProducts.Text = "00";
+            this.lblFood.AutoSize = true;
+            this.lblFood.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblFood.Location = new System.Drawing.Point(212, 71);
+            this.lblFood.Name = "lblFood";
+            this.lblFood.Size = new System.Drawing.Size(21, 16);
+            this.lblFood.TabIndex = 0;
+            this.lblFood.Text = "00";
             // 
             // label4
             // 
@@ -106,25 +111,25 @@
             this.label6.TabIndex = 0;
             this.label6.Text = "Staff Salaries :";
             // 
-            // lblPayments
+            // lblElectric
             // 
-            this.lblPayments.AutoSize = true;
-            this.lblPayments.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblPayments.Location = new System.Drawing.Point(212, 101);
-            this.lblPayments.Name = "lblPayments";
-            this.lblPayments.Size = new System.Drawing.Size(21, 16);
-            this.lblPayments.TabIndex = 0;
-            this.lblPayments.Text = "00";
+            this.lblElectric.AutoSize = true;
+            this.lblElectric.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblElectric.Location = new System.Drawing.Point(212, 102);
+            this.lblElectric.Name = "lblElectric";
+            this.lblElectric.Size = new System.Drawing.Size(21, 16);
+            this.lblElectric.TabIndex = 0;
+            this.lblElectric.Text = "00";
             // 
-            // label8
+            // lblResult
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label8.Location = new System.Drawing.Point(212, 132);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(21, 16);
-            this.label8.TabIndex = 0;
-            this.label8.Text = "00";
+            this.lblResult.AutoSize = true;
+            this.lblResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblResult.Location = new System.Drawing.Point(212, 192);
+            this.lblResult.Name = "lblResult";
+            this.lblResult.Size = new System.Drawing.Size(21, 16);
+            this.lblResult.TabIndex = 0;
+            this.lblResult.Text = "00";
             // 
             // txtPersonelPrice
             // 
@@ -132,7 +137,7 @@
             this.txtPersonelPrice.Location = new System.Drawing.Point(447, 7);
             this.txtPersonelPrice.Name = "txtPersonelPrice";
             this.txtPersonelPrice.Size = new System.Drawing.Size(100, 22);
-            this.txtPersonelPrice.TabIndex = 1;
+            this.txtPersonelPrice.TabIndex = 0;
             // 
             // label9
             // 
@@ -159,7 +164,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label10.Location = new System.Drawing.Point(145, 132);
+            this.label10.Location = new System.Drawing.Point(145, 192);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(51, 16);
             this.label10.TabIndex = 0;
@@ -204,16 +209,69 @@
             this.txtStaffSalary.Size = new System.Drawing.Size(100, 22);
             this.txtStaffSalary.TabIndex = 1;
             // 
+            // lblDrinks
+            // 
+            this.lblDrinks.AutoSize = true;
+            this.lblDrinks.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblDrinks.Location = new System.Drawing.Point(257, 71);
+            this.lblDrinks.Name = "lblDrinks";
+            this.lblDrinks.Size = new System.Drawing.Size(21, 16);
+            this.lblDrinks.TabIndex = 0;
+            this.lblDrinks.Text = "00";
+            // 
+            // lblNuts
+            // 
+            this.lblNuts.AutoSize = true;
+            this.lblNuts.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblNuts.Location = new System.Drawing.Point(304, 71);
+            this.lblNuts.Name = "lblNuts";
+            this.lblNuts.Size = new System.Drawing.Size(21, 16);
+            this.lblNuts.TabIndex = 0;
+            this.lblNuts.Text = "00";
+            // 
+            // lblWater
+            // 
+            this.lblWater.AutoSize = true;
+            this.lblWater.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblWater.Location = new System.Drawing.Point(257, 102);
+            this.lblWater.Name = "lblWater";
+            this.lblWater.Size = new System.Drawing.Size(21, 16);
+            this.lblWater.TabIndex = 0;
+            this.lblWater.Text = "00";
+            // 
+            // lblInt
+            // 
+            this.lblInt.AutoSize = true;
+            this.lblInt.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblInt.Location = new System.Drawing.Point(304, 102);
+            this.lblInt.Name = "lblInt";
+            this.lblInt.Size = new System.Drawing.Size(21, 16);
+            this.lblInt.TabIndex = 0;
+            this.lblInt.Text = "00";
+            // 
+            // btnTotal
+            // 
+            this.btnTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnTotal.Location = new System.Drawing.Point(260, 189);
+            this.btnTotal.Name = "btnTotal";
+            this.btnTotal.Size = new System.Drawing.Size(103, 23);
+            this.btnTotal.TabIndex = 2;
+            this.btnTotal.Text = "Click for Total";
+            this.btnTotal.UseVisualStyleBackColor = true;
+            this.btnTotal.Click += new System.EventHandler(this.btnTotal_Click);
+            // 
             // frmIncomeCost
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(619, 424);
+            this.Controls.Add(this.btnTotal);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.txtStaffSalary);
             this.Controls.Add(this.txtPersonelPrice);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.label8);
+            this.Controls.Add(this.lblResult);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
@@ -222,11 +280,20 @@
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label11);
-            this.Controls.Add(this.lblPayments);
-            this.Controls.Add(this.lblTotalProducts);
+            this.Controls.Add(this.lblElectric);
+            this.Controls.Add(this.lblInt);
+            this.Controls.Add(this.lblNuts);
+            this.Controls.Add(this.lblWater);
+            this.Controls.Add(this.lblDrinks);
+            this.Controls.Add(this.lblFood);
             this.Controls.Add(this.lblInCase);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "frmIncomeCost";
-            this.Text = "frmIncomeCost";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Income/Cost Table";
+            this.Load += new System.EventHandler(this.frmIncomeCost_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -236,12 +303,12 @@
 
         private System.Windows.Forms.Label lblInCase;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label lblTotalProducts;
+        private System.Windows.Forms.Label lblFood;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label lblStaffSalaries;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label lblPayments;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label lblElectric;
+        private System.Windows.Forms.Label lblResult;
         private System.Windows.Forms.TextBox txtPersonelPrice;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Button btnAdd;
@@ -250,5 +317,10 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtStaffSalary;
+        private System.Windows.Forms.Label lblDrinks;
+        private System.Windows.Forms.Label lblNuts;
+        private System.Windows.Forms.Label lblWater;
+        private System.Windows.Forms.Label lblInt;
+        private System.Windows.Forms.Button btnTotal;
     }
 }

@@ -128,12 +128,13 @@ namespace hostelRegistrationApp
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-
+            
             connection.Open();
             SqlCommand command = new SqlCommand("insert into AddCustomer (Name, LastName, Gender, PhoneNumber, Mail, IdentificationNumber, RoomNo, Price, DateOfEntry, LeavingDate) values('" + TxtName.Text + "', '" + TxtLastName.Text + "', '" + comboBox1.Text + "', '" + MskTxtPhone.Text + "', '" + TxtMail.Text + "', '" + TxtIdNo.Text + "', '" + TxtRoomNo.Text + "','" + TxtPrice.Text + "', '" + dtpEntry.Value.ToString("yyyy-MM-dd") + "', '" + dtpLeaving.Value.ToString("yyyy-MM-dd") + "')", connection);
             command.ExecuteNonQuery();
             connection.Close();
             MessageBox.Show("New customer registered!");
+            Application.Restart();
 
         }
 
