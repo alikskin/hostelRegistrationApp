@@ -174,7 +174,7 @@
             // 
             // btnSearch
             // 
-            this.btnSearch.Location = new System.Drawing.Point(294, 10);
+            this.btnSearch.Location = new System.Drawing.Point(311, 10);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(101, 22);
             this.btnSearch.TabIndex = 4;
@@ -230,6 +230,7 @@
             // TxtRoomNo
             // 
             this.TxtRoomNo.BackColor = System.Drawing.SystemColors.Info;
+            this.TxtRoomNo.Enabled = false;
             this.TxtRoomNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.TxtRoomNo.Location = new System.Drawing.Point(1042, 178);
             this.TxtRoomNo.Name = "TxtRoomNo";
@@ -364,14 +365,14 @@
             this.label11.AutoSize = true;
             this.label11.Location = new System.Drawing.Point(10, 13);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(50, 16);
+            this.label11.Size = new System.Drawing.Size(68, 16);
             this.label11.TabIndex = 34;
-            this.label11.Text = "Name :";
+            this.label11.Text = "RoomNo :";
             // 
             // txtBoxSearch
             // 
             this.txtBoxSearch.BackColor = System.Drawing.SystemColors.Info;
-            this.txtBoxSearch.Location = new System.Drawing.Point(67, 10);
+            this.txtBoxSearch.Location = new System.Drawing.Point(84, 10);
             this.txtBoxSearch.Name = "txtBoxSearch";
             this.txtBoxSearch.Size = new System.Drawing.Size(221, 22);
             this.txtBoxSearch.TabIndex = 23;

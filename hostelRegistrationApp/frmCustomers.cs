@@ -71,6 +71,12 @@ namespace hostelRegistrationApp
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
+            connection.Open();
+            SqlCommand cmd = new SqlCommand("delete from AddCustomer where CustomerID=(" + id + ")", connection);
+            cmd.ExecuteNonQuery();
+            connection.Close();
+            dataShow();
+
             if (TxtRoomNo.Text == "101")
             {
                 connection.Open();
@@ -151,6 +157,8 @@ namespace hostelRegistrationApp
                 connection.Close();
                 dataShow();
             }
+
+
             Application.Restart();
         }
 
@@ -181,7 +189,7 @@ namespace hostelRegistrationApp
         {
                 listView1.Items.Clear();
                 connection.Open();
-                SqlCommand command = new SqlCommand("select * from AddCustomer where Name like '%"+txtBoxSearch.Text+"%'", connection);
+                SqlCommand command = new SqlCommand("select * from AddCustomer where RoomNo like '%"+txtBoxSearch.Text+"%'", connection);
                 SqlDataReader read = command.ExecuteReader();
 
                 while (read.Read())

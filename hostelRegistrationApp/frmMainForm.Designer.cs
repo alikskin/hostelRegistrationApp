@@ -43,6 +43,9 @@
             this.btnChngdPass = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.lblUser = new System.Windows.Forms.Label();
+            this.button5 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -114,7 +117,7 @@
             // button8
             // 
             this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.button8.Location = new System.Drawing.Point(628, 390);
+            this.button8.Location = new System.Drawing.Point(718, 390);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(196, 148);
             this.button8.TabIndex = 8;
@@ -125,7 +128,7 @@
             // button9
             // 
             this.button9.BackColor = System.Drawing.Color.LightGray;
-            this.button9.Location = new System.Drawing.Point(830, 390);
+            this.button9.Location = new System.Drawing.Point(920, 390);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(196, 148);
             this.button9.TabIndex = 9;
@@ -160,7 +163,7 @@
             // btnChngdPass
             // 
             this.btnChngdPass.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnChngdPass.Location = new System.Drawing.Point(1122, 82);
+            this.btnChngdPass.Location = new System.Drawing.Point(516, 390);
             this.btnChngdPass.Name = "btnChngdPass";
             this.btnChngdPass.Size = new System.Drawing.Size(196, 148);
             this.btnChngdPass.TabIndex = 3;
@@ -182,13 +185,42 @@
             // btnExit
             // 
             this.btnExit.BackColor = System.Drawing.Color.LightSalmon;
-            this.btnExit.Location = new System.Drawing.Point(1032, 390);
+            this.btnExit.Location = new System.Drawing.Point(1122, 390);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(196, 148);
             this.btnExit.TabIndex = 10;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = false;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(13, 52);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(73, 16);
+            this.label1.TabIndex = 11;
+            this.label1.Text = "username :";
+            // 
+            // lblUser
+            // 
+            this.lblUser.AutoSize = true;
+            this.lblUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblUser.Location = new System.Drawing.Point(92, 52);
+            this.lblUser.Name = "lblUser";
+            this.lblUser.Size = new System.Drawing.Size(0, 16);
+            this.lblUser.TabIndex = 12;
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.DarkOrange;
+            this.button5.Location = new System.Drawing.Point(1122, 82);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(196, 148);
+            this.button5.TabIndex = 8;
+            this.button5.Text = "Check Out List";
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // frmMainForm
             // 
@@ -197,10 +229,13 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(159)))), ((int)(((byte)(159)))), ((int)(((byte)(159)))));
             this.ClientSize = new System.Drawing.Size(1765, 692);
+            this.Controls.Add(this.lblUser);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.lblHour);
             this.Controls.Add(this.lblDate);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.button9);
+            this.Controls.Add(this.button5);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button11);
             this.Controls.Add(this.btnStock);
@@ -237,5 +272,8 @@
         private System.Windows.Forms.Button btnChngdPass;
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblUser;
+        private System.Windows.Forms.Button button5;
     }
 }

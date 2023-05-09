@@ -62,6 +62,7 @@ namespace hostelRegistrationApp
             SqlCommand command = new SqlCommand("insert into Stocks(Food,Drinks,Nuts) values('" + txtFoods.Text + "','" + txtDrinks.Text + "','" + txtNuts.Text + "')", connection);
             command.ExecuteNonQuery();
             connection.Close();
+            MessageBox.Show("Entry Added!");
             dataKitchen();
         }
 
@@ -72,6 +73,7 @@ namespace hostelRegistrationApp
             SqlCommand command = new SqlCommand("insert into Payments(Electric,Water,Internet) values('" + txtElectric.Text + "','" + txtWater.Text + "','" + txtınt.Text + "')", connection);
             command.ExecuteNonQuery();
             connection.Close();
+            MessageBox.Show("Entry Added!");
             dataPayments();
         }
 

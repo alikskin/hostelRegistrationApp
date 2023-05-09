@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -16,6 +17,31 @@ namespace hostelRegistrationApp
         {
             InitializeComponent();
         }
+
+        SqlConnection connection = new SqlConnection("Data Source=LENOVO\\SQLEXPRESS05;Initial Catalog=hostelRegistrationAppDB;Integrated Security=True");
+
+        private void frmMainForm_Load(object sender, EventArgs e)
+        {
+
+            timer1.Start();
+
+            connection.Open();
+            SqlCommand command = new SqlCommand("select * from AdminLogin", connection);
+            SqlDataReader read = command.ExecuteReader();
+
+            while (read.Read())
+            {
+                lblUser.Text = read["UserName"].ToString();
+            }
+            connection.Close();
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            lblDate.Text = DateTime.Now.ToLongDateString();
+            lblHour.Text = DateTime.Now.ToLongTimeString();
+        }
+
 
         //AdminLogin
         private void button1_Click(object sender, EventArgs e)
@@ -92,20 +118,15 @@ namespace hostelRegistrationApp
             this.WindowState = FormWindowState.Maximized;
         }
 
-        private void frmMainForm_Load(object sender, EventArgs e)
-        {
-            timer1.Start();
-        }
-
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-            lblDate.Text = DateTime.Now.ToLongDateString();
-            lblHour.Text = DateTime.Now.ToLongTimeString();
-        }
-
         private void btnChngdPass_Click(object sender, EventArgs e)
         {
             frmChangePassword fr = new frmChangePassword();
+            fr.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            frmCheckOutCustomers fr = new frmCheckOutCustomers();
             fr.Show();
         }
     }
