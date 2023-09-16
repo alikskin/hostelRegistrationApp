@@ -127,7 +127,7 @@
             this.btnShowData.Location = new System.Drawing.Point(12, 77);
             this.btnShowData.Name = "btnShowData";
             this.btnShowData.Size = new System.Drawing.Size(125, 43);
-            this.btnShowData.TabIndex = 46;
+            this.btnShowData.TabIndex = 4;
             this.btnShowData.Text = "Show All Customers";
             this.btnShowData.UseVisualStyleBackColor = true;
             this.btnShowData.Click += new System.EventHandler(this.button1_Click);
@@ -138,7 +138,7 @@
             this.txtBoxSearch.Location = new System.Drawing.Point(83, 46);
             this.txtBoxSearch.Name = "txtBoxSearch";
             this.txtBoxSearch.Size = new System.Drawing.Size(221, 22);
-            this.txtBoxSearch.TabIndex = 48;
+            this.txtBoxSearch.TabIndex = 2;
             // 
             // label11
             // 
@@ -154,7 +154,7 @@
             this.btnSearch.Location = new System.Drawing.Point(310, 46);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(101, 22);
-            this.btnSearch.TabIndex = 47;
+            this.btnSearch.TabIndex = 3;
             this.btnSearch.Text = "Search";
             this.btnSearch.UseVisualStyleBackColor = true;
             this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
@@ -164,7 +164,7 @@
             this.btnNameSearch.Location = new System.Drawing.Point(310, 9);
             this.btnNameSearch.Name = "btnNameSearch";
             this.btnNameSearch.Size = new System.Drawing.Size(101, 22);
-            this.btnNameSearch.TabIndex = 47;
+            this.btnNameSearch.TabIndex = 1;
             this.btnNameSearch.Text = "Search";
             this.btnNameSearch.UseVisualStyleBackColor = true;
             this.btnNameSearch.Click += new System.EventHandler(this.btnNameSearch_Click);
@@ -184,14 +184,14 @@
             this.txtBoxNameSearch.Location = new System.Drawing.Point(83, 9);
             this.txtBoxNameSearch.Name = "txtBoxNameSearch";
             this.txtBoxNameSearch.Size = new System.Drawing.Size(221, 22);
-            this.txtBoxNameSearch.TabIndex = 48;
+            this.txtBoxNameSearch.TabIndex = 0;
             // 
             // btnClearScreen
             // 
             this.btnClearScreen.Location = new System.Drawing.Point(143, 77);
             this.btnClearScreen.Name = "btnClearScreen";
             this.btnClearScreen.Size = new System.Drawing.Size(125, 43);
-            this.btnClearScreen.TabIndex = 50;
+            this.btnClearScreen.TabIndex = 5;
             this.btnClearScreen.Text = "Cleaning the Screen";
             this.btnClearScreen.UseVisualStyleBackColor = true;
             this.btnClearScreen.Click += new System.EventHandler(this.btnClearScreen_Click);
@@ -212,6 +212,8 @@
             this.Controls.Add(this.btnShowData);
             this.Controls.Add(this.listView1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "frmCheckOutCustomers";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CheckOut Customers";

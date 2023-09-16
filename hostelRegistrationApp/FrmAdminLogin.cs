@@ -50,5 +50,12 @@ namespace hostelRegistrationApp
                 MessageBox.Show("Username or password is wrong!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+        
+        private void frgtPass_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            frmChangePassword fr = new frmChangePassword();
+            fr.Show();
+            this.Hide();
+        }
     }
 }

@@ -35,20 +35,26 @@
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // webBrowser1
             // 
-            this.webBrowser1.Location = new System.Drawing.Point(-2, 49);
+            this.webBrowser1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.webBrowser1.Location = new System.Drawing.Point(0, 77);
             this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
             this.webBrowser1.Name = "webBrowser1";
             this.webBrowser1.ScriptErrorsSuppressed = true;
-            this.webBrowser1.Size = new System.Drawing.Size(810, 492);
+            this.webBrowser1.Size = new System.Drawing.Size(840, 493);
             this.webBrowser1.TabIndex = 0;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(1, 13);
+            this.button1.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.button1.Location = new System.Drawing.Point(18, 21);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(130, 30);
             this.button1.TabIndex = 1;
@@ -58,7 +64,8 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(134, 13);
+            this.button2.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.button2.Location = new System.Drawing.Point(154, 21);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(130, 30);
             this.button2.TabIndex = 1;
@@ -68,7 +75,8 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(270, 13);
+            this.button3.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.button3.Location = new System.Drawing.Point(290, 21);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(130, 30);
             this.button3.TabIndex = 1;
@@ -78,7 +86,8 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(406, 13);
+            this.button4.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.button4.Location = new System.Drawing.Point(426, 21);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(130, 30);
             this.button4.TabIndex = 1;
@@ -88,7 +97,8 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(542, 13);
+            this.button5.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.button5.Location = new System.Drawing.Point(562, 21);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(130, 30);
             this.button5.TabIndex = 1;
@@ -98,30 +108,44 @@
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(678, 13);
+            this.button6.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.button6.Location = new System.Drawing.Point(698, 21);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(130, 30);
             this.button6.TabIndex = 1;
             this.button6.Text = "Onedio";
             this.button6.UseVisualStyleBackColor = true;
             // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.button1);
+            this.groupBox1.Controls.Add(this.button6);
+            this.groupBox1.Controls.Add(this.button2);
+            this.groupBox1.Controls.Add(this.button5);
+            this.groupBox1.Controls.Add(this.button3);
+            this.groupBox1.Controls.Add(this.button4);
+            this.groupBox1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.groupBox1.Location = new System.Drawing.Point(0, 0);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(840, 71);
+            this.groupBox1.TabIndex = 2;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Pages";
+            // 
             // frmNews
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(810, 539);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.AutoSize = true;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.ClientSize = new System.Drawing.Size(840, 592);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.webBrowser1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.MaximizeBox = false;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "frmNews";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "News";
+            this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -135,5 +159,6 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.GroupBox groupBox1;
     }
 }

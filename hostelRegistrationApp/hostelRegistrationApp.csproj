@@ -94,6 +94,18 @@
     <Compile Include="frmNews.Designer.cs">
       <DependentUpon>frmNews.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmNewUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNewUser.Designer.cs">
+      <DependentUpon>frmNewUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPos.Designer.cs">
+      <DependentUpon>frmPos.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmReceivedItems.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -137,6 +149,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmNews.resx">
       <DependentUpon>frmNews.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNewUser.resx">
+      <DependentUpon>frmNewUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPos.resx">
+      <DependentUpon>frmPos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmReceivedItems.resx">
       <DependentUpon>frmReceivedItems.cs</DependentUpon>

@@ -47,7 +47,7 @@ namespace hostelRegistrationApp
         private void button1_Click(object sender, EventArgs e)
         {
             FrmAdminLogin fr = new FrmAdminLogin();
-            fr.Show();
+            fr.ShowDialog();
             this.Hide();
         }
 
@@ -55,7 +55,7 @@ namespace hostelRegistrationApp
         private void button2_Click(object sender, EventArgs e)
         {
             frmNewCustomer fr = new frmNewCustomer();
-            fr.Show();
+            fr.ShowDialog();
         }
 
         //Rooms
@@ -68,8 +68,8 @@ namespace hostelRegistrationApp
         //Customers
         private void button4_Click(object sender, EventArgs e)
         {
-            frmCustomers frm = new frmCustomers();
-            frm.Show();
+            frmCustomers fr = new frmCustomers();
+            fr.ShowDialog();
         }
 
         //AboutMe
@@ -88,14 +88,14 @@ namespace hostelRegistrationApp
         private void btnIncomeCost_Click(object sender, EventArgs e)
         {
             frmIncomeCost fr = new frmIncomeCost();
-            fr.Show();
+            fr.ShowDialog();
         }
 
         //Stock
         private void btnStock_Click(object sender, EventArgs e)
         {
             frmReceivedItems fr = new frmReceivedItems();
-            fr.Show();
+            fr.ShowDialog();
         }
 
         //ListenToRadio
@@ -118,15 +118,24 @@ namespace hostelRegistrationApp
             this.WindowState = FormWindowState.Maximized;
         }
 
+        //Change Pass
         private void btnChngdPass_Click(object sender, EventArgs e)
         {
             frmChangePassword fr = new frmChangePassword();
-            fr.Show();
+            fr.ShowDialog();
         }
 
+        //CheckOutCustomers
         private void button5_Click(object sender, EventArgs e)
         {
             frmCheckOutCustomers fr = new frmCheckOutCustomers();
+            fr.Show();
+        }
+
+        //POS
+        private void button6_Click(object sender, EventArgs e)
+        {
+            frmPos fr = new frmPos();
             fr.Show();
         }
     }

@@ -36,6 +36,7 @@
             this.BtnLogin = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.frgtPass = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -107,12 +108,24 @@
             this.label3.TabIndex = 6;
             this.label3.Text = "Welcome to Hotel";
             // 
+            // frgtPass
+            // 
+            this.frgtPass.AutoSize = true;
+            this.frgtPass.Location = new System.Drawing.Point(223, 275);
+            this.frgtPass.Name = "frgtPass";
+            this.frgtPass.Size = new System.Drawing.Size(116, 16);
+            this.frgtPass.TabIndex = 3;
+            this.frgtPass.TabStop = true;
+            this.frgtPass.Text = "Forget Password?";
+            this.frgtPass.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.frgtPass_LinkClicked);
+            // 
             // FrmAdminLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(159)))), ((int)(((byte)(159)))), ((int)(((byte)(159)))));
             this.ClientSize = new System.Drawing.Size(598, 351);
+            this.Controls.Add(this.frgtPass);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.BtnLogin);
@@ -141,6 +154,8 @@
         private System.Windows.Forms.Button BtnLogin;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.LinkLabel frgtPass;
     }
 }
+
 
