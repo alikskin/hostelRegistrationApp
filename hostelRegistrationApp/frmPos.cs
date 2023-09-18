@@ -16,5 +16,10 @@ namespace hostelRegistrationApp
         {
             InitializeComponent();
         }
+
+        private void frmPos_Load(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
