@@ -211,7 +211,7 @@
             this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.btnShowData);
             this.Controls.Add(this.listView1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmCheckOutCustomers";

@@ -359,7 +359,7 @@
             this.Controls.Add(this.lblDrinks);
             this.Controls.Add(this.lblFood);
             this.Controls.Add(this.lblInCase);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmIncomeCost";

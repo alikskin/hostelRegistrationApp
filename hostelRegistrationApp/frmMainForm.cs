@@ -20,8 +20,12 @@ namespace hostelRegistrationApp
 
         SqlConnection connection = new SqlConnection("Data Source=LENOVO\\SQLEXPRESS05;Initial Catalog=hostelRegistrationAppDB;Integrated Security=True");
 
+        
+
+
         private void frmMainForm_Load(object sender, EventArgs e)
         {
+            
 
             timer1.Start();
 
@@ -34,6 +38,7 @@ namespace hostelRegistrationApp
                 lblUser.Text = read["UserName"].ToString();
             }
             connection.Close();
+
         }
 
         private void timer1_Tick(object sender, EventArgs e)

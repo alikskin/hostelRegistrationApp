@@ -88,7 +88,7 @@
             this.button4.Location = new System.Drawing.Point(436, 81);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(134, 105);
-            this.button4.TabIndex = 4;
+            this.button4.TabIndex = 3;
             this.button4.Text = "Customers";
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
@@ -121,7 +121,7 @@
             this.button8.Location = new System.Drawing.Point(1416, 81);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(134, 105);
-            this.button8.TabIndex = 8;
+            this.button8.TabIndex = 10;
             this.button8.Text = "Listen to Radio";
             this.button8.UseVisualStyleBackColor = false;
             this.button8.Click += new System.EventHandler(this.button8_Click);
@@ -132,7 +132,7 @@
             this.button9.Location = new System.Drawing.Point(1556, 81);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(134, 105);
-            this.button9.TabIndex = 9;
+            this.button9.TabIndex = 11;
             this.button9.Text = "About Me";
             this.button9.UseVisualStyleBackColor = false;
             this.button9.Click += new System.EventHandler(this.button9_Click);
@@ -167,7 +167,7 @@
             this.btnChngdPass.Location = new System.Drawing.Point(1276, 81);
             this.btnChngdPass.Name = "btnChngdPass";
             this.btnChngdPass.Size = new System.Drawing.Size(134, 105);
-            this.btnChngdPass.TabIndex = 3;
+            this.btnChngdPass.TabIndex = 9;
             this.btnChngdPass.Text = "Change Password";
             this.btnChngdPass.UseVisualStyleBackColor = false;
             this.btnChngdPass.Click += new System.EventHandler(this.btnChngdPass_Click);
@@ -178,7 +178,7 @@
             this.button11.Location = new System.Drawing.Point(1136, 81);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(134, 105);
-            this.button11.TabIndex = 7;
+            this.button11.TabIndex = 8;
             this.button11.Text = "News";
             this.button11.UseVisualStyleBackColor = false;
             this.button11.Click += new System.EventHandler(this.button11_Click);
@@ -189,7 +189,7 @@
             this.btnExit.Location = new System.Drawing.Point(1696, 81);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(134, 105);
-            this.btnExit.TabIndex = 10;
+            this.btnExit.TabIndex = 12;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = false;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
@@ -218,7 +218,7 @@
             this.button5.Location = new System.Drawing.Point(576, 81);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(134, 105);
-            this.button5.TabIndex = 8;
+            this.button5.TabIndex = 4;
             this.button5.Text = "Check Out List";
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
@@ -229,7 +229,7 @@
             this.button6.Location = new System.Drawing.Point(996, 81);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(134, 105);
-            this.button6.TabIndex = 13;
+            this.button6.TabIndex = 7;
             this.button6.Text = "POS";
             this.button6.UseVisualStyleBackColor = false;
             this.button6.Click += new System.EventHandler(this.button6_Click);
@@ -239,8 +239,9 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(159)))), ((int)(((byte)(159)))), ((int)(((byte)(159)))));
-            this.ClientSize = new System.Drawing.Size(1765, 692);
+            this.ClientSize = new System.Drawing.Size(1765, 699);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.lblUser);
             this.Controls.Add(this.label1);
@@ -258,8 +259,8 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.MaximizeBox = false;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.MinimumSize = new System.Drawing.Size(0, 750);
             this.Name = "frmMainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Home Page";

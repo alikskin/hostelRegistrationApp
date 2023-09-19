@@ -141,7 +141,7 @@
             this.ClientSize = new System.Drawing.Size(840, 592);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.webBrowser1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "frmNews";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "News";
