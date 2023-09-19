@@ -74,7 +74,7 @@ namespace hostelRegistrationApp
         private void button4_Click(object sender, EventArgs e)
         {
             frmCustomers fr = new frmCustomers();
-            fr.ShowDialog();
+            fr.Show();
         }
 
         //AboutMe
@@ -134,14 +134,14 @@ namespace hostelRegistrationApp
         private void button5_Click(object sender, EventArgs e)
         {
             frmCheckOutCustomers fr = new frmCheckOutCustomers();
-            fr.Show();
+            fr.ShowDialog();
         }
 
         //POS
         private void button6_Click(object sender, EventArgs e)
         {
             frmPos fr = new frmPos();
-            fr.Show();
+            fr.ShowDialog();
         }
     }
 }
