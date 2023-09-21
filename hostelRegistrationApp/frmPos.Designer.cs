@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.ıconButton1 = new FontAwesome.Sharp.IconButton();
             this.SuspendLayout();
             // 
             // label1
@@ -40,12 +42,40 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "hello";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(461, 131);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(99, 51);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // ıconButton1
+            // 
+            this.ıconButton1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ıconButton1.FlatAppearance.BorderSize = 0;
+            this.ıconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ıconButton1.IconChar = FontAwesome.Sharp.IconChar.Gift;
+            this.ıconButton1.IconColor = System.Drawing.Color.Black;
+            this.ıconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.ıconButton1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.ıconButton1.Location = new System.Drawing.Point(461, 231);
+            this.ıconButton1.Name = "ıconButton1";
+            this.ıconButton1.Size = new System.Drawing.Size(129, 52);
+            this.ıconButton1.TabIndex = 2;
+            this.ıconButton1.Text = "ıconButton1";
+            this.ıconButton1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.ıconButton1.UseVisualStyleBackColor = false;
+            // 
             // frmPos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.ıconButton1);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
@@ -63,5 +93,7 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button1;
+        private FontAwesome.Sharp.IconButton ıconButton1;
     }
 }
