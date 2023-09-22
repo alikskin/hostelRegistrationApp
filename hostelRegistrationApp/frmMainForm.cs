@@ -49,7 +49,7 @@ namespace hostelRegistrationApp
 
 
         //AdminLogin
-        private void button1_Click(object sender, EventArgs e)
+        private void btnAdminLogin_Click(object sender, EventArgs e)
         {
             FrmAdminLogin fr = new FrmAdminLogin();
             fr.ShowDialog();
@@ -57,61 +57,61 @@ namespace hostelRegistrationApp
         }
 
         //AddNewCustomer
-        private void button2_Click(object sender, EventArgs e)
+        private void btnNewCustomer_Click(object sender, EventArgs e)
         {
             frmNewCustomer fr = new frmNewCustomer();
             fr.ShowDialog();
         }
 
         //Rooms
-        private void button3_Click(object sender, EventArgs e)
+        private void btnRooms_Click(object sender, EventArgs e)
         {
             frmRooms fr = new frmRooms();
             fr.Show();
         }
 
         //Customers
-        private void button4_Click(object sender, EventArgs e)
+        private void btnCustomers_Click(object sender, EventArgs e)
         {
             frmCustomers fr = new frmCustomers();
             fr.ShowDialog();
         }
 
         //AboutMe
-        private void button9_Click(object sender, EventArgs e)
+        private void btnInfo_Click(object sender, EventArgs e)
         {
             MessageBox.Show("github.com/alikskin  -  www.linkedin.com/in/alikskin");
         }
 
         //Exit
-        private void btnExit_Click(object sender, EventArgs e)
+        private void btnExt_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
         //IncomeCost
-        private void btnIncomeCost_Click(object sender, EventArgs e)
+        private void btnIncome_Click(object sender, EventArgs e)
         {
             frmIncomeCost fr = new frmIncomeCost();
             fr.ShowDialog();
         }
 
         //Stock
-        private void btnStock_Click(object sender, EventArgs e)
+        private void ıconbtnStock_Click(object sender, EventArgs e)
         {
             frmReceivedItems fr = new frmReceivedItems();
             fr.ShowDialog();
         }
 
         //ListenToRadio
-        private void button8_Click(object sender, EventArgs e)
+        private void btnRadio_Click(object sender, EventArgs e)
         {
             frmListenToRadio fr = new frmListenToRadio();
             fr.Show();
         }
 
         //News
-        private void button11_Click(object sender, EventArgs e)
+        private void btnNews_Click(object sender, EventArgs e)
         {
             frmNews fr = new frmNews();
             fr.Show();
@@ -124,24 +124,26 @@ namespace hostelRegistrationApp
         }
 
         //Change Pass
-        private void btnChngdPass_Click(object sender, EventArgs e)
+        private void btnChangePass_Click(object sender, EventArgs e)
         {
             frmChangePassword fr = new frmChangePassword();
             fr.ShowDialog();
         }
 
         //CheckOutCustomers
-        private void button5_Click(object sender, EventArgs e)
+        private void btnCoutList_Click(object sender, EventArgs e)
         {
             frmCheckOutCustomers fr = new frmCheckOutCustomers();
             fr.Show();
         }
 
         //POS
-        private void button6_Click(object sender, EventArgs e)
+        private void btnPos_Click(object sender, EventArgs e)
         {
             frmPos fr = new frmPos();
             fr.ShowDialog();
         }
+
+        
     }
 }
