@@ -47,15 +47,17 @@
             this.btnNews = new FontAwesome.Sharp.IconButton();
             this.btnInfo = new FontAwesome.Sharp.IconButton();
             this.btnExt = new FontAwesome.Sharp.IconButton();
+            this.ıconButton1 = new FontAwesome.Sharp.IconButton();
             this.SuspendLayout();
             // 
             // lblDate
             // 
             this.lblDate.AutoSize = true;
             this.lblDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblDate.Location = new System.Drawing.Point(12, 9);
+            this.lblDate.Location = new System.Drawing.Point(9, 7);
+            this.lblDate.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblDate.Name = "lblDate";
-            this.lblDate.Size = new System.Drawing.Size(40, 16);
+            this.lblDate.Size = new System.Drawing.Size(34, 13);
             this.lblDate.TabIndex = 7;
             this.lblDate.Text = "Date";
             // 
@@ -63,9 +65,10 @@
             // 
             this.lblHour.AutoSize = true;
             this.lblHour.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblHour.Location = new System.Drawing.Point(12, 29);
+            this.lblHour.Location = new System.Drawing.Point(9, 24);
+            this.lblHour.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblHour.Name = "lblHour";
-            this.lblHour.Size = new System.Drawing.Size(40, 16);
+            this.lblHour.Size = new System.Drawing.Size(34, 13);
             this.lblHour.TabIndex = 8;
             this.lblHour.Text = "Hour";
             // 
@@ -76,9 +79,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 52);
+            this.label1.Location = new System.Drawing.Point(10, 42);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(73, 16);
+            this.label1.Size = new System.Drawing.Size(59, 13);
             this.label1.TabIndex = 11;
             this.label1.Text = "username :";
             // 
@@ -86,9 +90,10 @@
             // 
             this.lblUser.AutoSize = true;
             this.lblUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblUser.Location = new System.Drawing.Point(92, 52);
+            this.lblUser.Location = new System.Drawing.Point(69, 42);
+            this.lblUser.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblUser.Name = "lblUser";
-            this.lblUser.Size = new System.Drawing.Size(0, 16);
+            this.lblUser.Size = new System.Drawing.Size(0, 13);
             this.lblUser.TabIndex = 12;
             // 
             // btnRadio
@@ -102,9 +107,10 @@
             this.btnRadio.IconColor = System.Drawing.Color.Black;
             this.btnRadio.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnRadio.IconSize = 35;
-            this.btnRadio.Location = new System.Drawing.Point(1416, 81);
+            this.btnRadio.Location = new System.Drawing.Point(1165, 66);
+            this.btnRadio.Margin = new System.Windows.Forms.Padding(2);
             this.btnRadio.Name = "btnRadio";
-            this.btnRadio.Size = new System.Drawing.Size(134, 105);
+            this.btnRadio.Size = new System.Drawing.Size(100, 85);
             this.btnRadio.TabIndex = 13;
             this.btnRadio.Text = "Listen Radio";
             this.btnRadio.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -123,9 +129,10 @@
             this.btnChangePass.IconColor = System.Drawing.Color.Black;
             this.btnChangePass.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnChangePass.IconSize = 35;
-            this.btnChangePass.Location = new System.Drawing.Point(1276, 81);
+            this.btnChangePass.Location = new System.Drawing.Point(1060, 66);
+            this.btnChangePass.Margin = new System.Windows.Forms.Padding(2);
             this.btnChangePass.Name = "btnChangePass";
-            this.btnChangePass.Size = new System.Drawing.Size(134, 105);
+            this.btnChangePass.Size = new System.Drawing.Size(100, 85);
             this.btnChangePass.TabIndex = 13;
             this.btnChangePass.Text = "Change Password";
             this.btnChangePass.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -144,9 +151,10 @@
             this.btnAdminLogin.IconColor = System.Drawing.Color.Black;
             this.btnAdminLogin.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnAdminLogin.IconSize = 35;
-            this.btnAdminLogin.Location = new System.Drawing.Point(16, 81);
+            this.btnAdminLogin.Location = new System.Drawing.Point(12, 66);
+            this.btnAdminLogin.Margin = new System.Windows.Forms.Padding(2);
             this.btnAdminLogin.Name = "btnAdminLogin";
-            this.btnAdminLogin.Size = new System.Drawing.Size(134, 105);
+            this.btnAdminLogin.Size = new System.Drawing.Size(100, 85);
             this.btnAdminLogin.TabIndex = 14;
             this.btnAdminLogin.Text = "Admin Login";
             this.btnAdminLogin.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -165,9 +173,10 @@
             this.btnNewCustomer.IconColor = System.Drawing.Color.Black;
             this.btnNewCustomer.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnNewCustomer.IconSize = 35;
-            this.btnNewCustomer.Location = new System.Drawing.Point(156, 81);
+            this.btnNewCustomer.Location = new System.Drawing.Point(117, 66);
+            this.btnNewCustomer.Margin = new System.Windows.Forms.Padding(2);
             this.btnNewCustomer.Name = "btnNewCustomer";
-            this.btnNewCustomer.Size = new System.Drawing.Size(134, 105);
+            this.btnNewCustomer.Size = new System.Drawing.Size(100, 85);
             this.btnNewCustomer.TabIndex = 15;
             this.btnNewCustomer.Text = "Add New Customer";
             this.btnNewCustomer.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -186,9 +195,10 @@
             this.btnRooms.IconColor = System.Drawing.Color.Black;
             this.btnRooms.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnRooms.IconSize = 35;
-            this.btnRooms.Location = new System.Drawing.Point(296, 81);
+            this.btnRooms.Location = new System.Drawing.Point(222, 66);
+            this.btnRooms.Margin = new System.Windows.Forms.Padding(2);
             this.btnRooms.Name = "btnRooms";
-            this.btnRooms.Size = new System.Drawing.Size(134, 105);
+            this.btnRooms.Size = new System.Drawing.Size(100, 85);
             this.btnRooms.TabIndex = 16;
             this.btnRooms.Text = "Rooms";
             this.btnRooms.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -207,9 +217,10 @@
             this.btnCustomers.IconColor = System.Drawing.Color.Black;
             this.btnCustomers.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnCustomers.IconSize = 35;
-            this.btnCustomers.Location = new System.Drawing.Point(436, 81);
+            this.btnCustomers.Location = new System.Drawing.Point(327, 66);
+            this.btnCustomers.Margin = new System.Windows.Forms.Padding(2);
             this.btnCustomers.Name = "btnCustomers";
-            this.btnCustomers.Size = new System.Drawing.Size(134, 105);
+            this.btnCustomers.Size = new System.Drawing.Size(100, 85);
             this.btnCustomers.TabIndex = 17;
             this.btnCustomers.Text = "Customers";
             this.btnCustomers.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -228,9 +239,10 @@
             this.btnCoutList.IconColor = System.Drawing.Color.Black;
             this.btnCoutList.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnCoutList.IconSize = 35;
-            this.btnCoutList.Location = new System.Drawing.Point(576, 81);
+            this.btnCoutList.Location = new System.Drawing.Point(432, 66);
+            this.btnCoutList.Margin = new System.Windows.Forms.Padding(2);
             this.btnCoutList.Name = "btnCoutList";
-            this.btnCoutList.Size = new System.Drawing.Size(134, 105);
+            this.btnCoutList.Size = new System.Drawing.Size(100, 85);
             this.btnCoutList.TabIndex = 18;
             this.btnCoutList.Text = "C-Out List";
             this.btnCoutList.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -249,9 +261,10 @@
             this.btnIncome.IconColor = System.Drawing.Color.Black;
             this.btnIncome.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnIncome.IconSize = 35;
-            this.btnIncome.Location = new System.Drawing.Point(716, 81);
+            this.btnIncome.Location = new System.Drawing.Point(537, 66);
+            this.btnIncome.Margin = new System.Windows.Forms.Padding(2);
             this.btnIncome.Name = "btnIncome";
-            this.btnIncome.Size = new System.Drawing.Size(134, 105);
+            this.btnIncome.Size = new System.Drawing.Size(100, 85);
             this.btnIncome.TabIndex = 19;
             this.btnIncome.Text = "Income/Cost";
             this.btnIncome.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -270,9 +283,10 @@
             this.ıconbtnStock.IconColor = System.Drawing.Color.Black;
             this.ıconbtnStock.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.ıconbtnStock.IconSize = 35;
-            this.ıconbtnStock.Location = new System.Drawing.Point(856, 81);
+            this.ıconbtnStock.Location = new System.Drawing.Point(642, 66);
+            this.ıconbtnStock.Margin = new System.Windows.Forms.Padding(2);
             this.ıconbtnStock.Name = "ıconbtnStock";
-            this.ıconbtnStock.Size = new System.Drawing.Size(134, 105);
+            this.ıconbtnStock.Size = new System.Drawing.Size(100, 85);
             this.ıconbtnStock.TabIndex = 20;
             this.ıconbtnStock.Text = "Stock";
             this.ıconbtnStock.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -291,9 +305,10 @@
             this.btnPos.IconColor = System.Drawing.Color.Black;
             this.btnPos.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnPos.IconSize = 35;
-            this.btnPos.Location = new System.Drawing.Point(996, 81);
+            this.btnPos.Location = new System.Drawing.Point(850, 66);
+            this.btnPos.Margin = new System.Windows.Forms.Padding(2);
             this.btnPos.Name = "btnPos";
-            this.btnPos.Size = new System.Drawing.Size(134, 105);
+            this.btnPos.Size = new System.Drawing.Size(100, 85);
             this.btnPos.TabIndex = 21;
             this.btnPos.Text = "Pos";
             this.btnPos.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -312,9 +327,10 @@
             this.btnNews.IconColor = System.Drawing.Color.Black;
             this.btnNews.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnNews.IconSize = 35;
-            this.btnNews.Location = new System.Drawing.Point(1136, 81);
+            this.btnNews.Location = new System.Drawing.Point(955, 66);
+            this.btnNews.Margin = new System.Windows.Forms.Padding(2);
             this.btnNews.Name = "btnNews";
-            this.btnNews.Size = new System.Drawing.Size(134, 105);
+            this.btnNews.Size = new System.Drawing.Size(100, 85);
             this.btnNews.TabIndex = 22;
             this.btnNews.Text = "News";
             this.btnNews.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -333,9 +349,10 @@
             this.btnInfo.IconColor = System.Drawing.Color.Black;
             this.btnInfo.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnInfo.IconSize = 35;
-            this.btnInfo.Location = new System.Drawing.Point(1556, 81);
+            this.btnInfo.Location = new System.Drawing.Point(1270, 66);
+            this.btnInfo.Margin = new System.Windows.Forms.Padding(2);
             this.btnInfo.Name = "btnInfo";
-            this.btnInfo.Size = new System.Drawing.Size(134, 105);
+            this.btnInfo.Size = new System.Drawing.Size(100, 85);
             this.btnInfo.TabIndex = 23;
             this.btnInfo.Text = "About Me";
             this.btnInfo.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -354,9 +371,10 @@
             this.btnExt.IconColor = System.Drawing.Color.Black;
             this.btnExt.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnExt.IconSize = 35;
-            this.btnExt.Location = new System.Drawing.Point(1696, 81);
+            this.btnExt.Location = new System.Drawing.Point(1375, 66);
+            this.btnExt.Margin = new System.Windows.Forms.Padding(2);
             this.btnExt.Name = "btnExt";
-            this.btnExt.Size = new System.Drawing.Size(134, 105);
+            this.btnExt.Size = new System.Drawing.Size(100, 85);
             this.btnExt.TabIndex = 24;
             this.btnExt.Text = "Exit";
             this.btnExt.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -364,17 +382,40 @@
             this.btnExt.UseVisualStyleBackColor = false;
             this.btnExt.Click += new System.EventHandler(this.btnExt_Click);
             // 
+            // ıconButton1
+            // 
+            this.ıconButton1.BackColor = System.Drawing.Color.SteelBlue;
+            this.ıconButton1.FlatAppearance.BorderSize = 0;
+            this.ıconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ıconButton1.Font = new System.Drawing.Font("Webdings", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.ıconButton1.ForeColor = System.Drawing.Color.Black;
+            this.ıconButton1.IconChar = FontAwesome.Sharp.IconChar.Calculator;
+            this.ıconButton1.IconColor = System.Drawing.Color.Black;
+            this.ıconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.ıconButton1.IconSize = 35;
+            this.ıconButton1.Location = new System.Drawing.Point(746, 66);
+            this.ıconButton1.Margin = new System.Windows.Forms.Padding(2);
+            this.ıconButton1.Name = "ıconButton1";
+            this.ıconButton1.Size = new System.Drawing.Size(100, 85);
+            this.ıconButton1.TabIndex = 21;
+            this.ıconButton1.Text = "Currency Exchange";
+            this.ıconButton1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.ıconButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.ıconButton1.UseVisualStyleBackColor = false;
+            this.ıconButton1.Click += new System.EventHandler(this.ıconButton1_Click);
+            // 
             // frmMainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(159)))), ((int)(((byte)(159)))), ((int)(((byte)(159)))));
-            this.ClientSize = new System.Drawing.Size(1765, 699);
+            this.ClientSize = new System.Drawing.Size(1490, 745);
             this.Controls.Add(this.btnInfo);
             this.Controls.Add(this.btnExt);
             this.Controls.Add(this.btnNews);
+            this.Controls.Add(this.ıconButton1);
             this.Controls.Add(this.btnPos);
             this.Controls.Add(this.ıconbtnStock);
             this.Controls.Add(this.btnIncome);
@@ -390,7 +431,8 @@
             this.Controls.Add(this.lblHour);
             this.Controls.Add(this.lblDate);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
-            this.MinimumSize = new System.Drawing.Size(22, 750);
+            this.Margin = new System.Windows.Forms.Padding(2);
+            this.MinimumSize = new System.Drawing.Size(22, 617);
             this.Name = "frmMainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Home Page";
@@ -420,5 +462,6 @@
         private FontAwesome.Sharp.IconButton btnNews;
         private FontAwesome.Sharp.IconButton btnInfo;
         private FontAwesome.Sharp.IconButton btnExt;
+        private FontAwesome.Sharp.IconButton ıconButton1;
     }
 }

@@ -144,6 +144,11 @@ namespace hostelRegistrationApp
             fr.ShowDialog();
         }
 
-        
+        //Currency Exchange
+        private void ıconButton1_Click(object sender, EventArgs e)
+        {
+            frmCurrencyExchange fr = new frmCurrencyExchange();
+            fr.ShowDialog();
+        }
     }
 }
