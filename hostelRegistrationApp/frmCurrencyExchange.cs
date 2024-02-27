@@ -42,7 +42,7 @@ namespace hostelRegistrationApp
             string gbpSatis = xmlDoc.SelectSingleNode("Tarih_Date /Currency[@Kod = 'GBP']/BanknoteSelling").InnerXml;
             txtGbpSatis.Text = gbpSatis;
 
-            
+
         }
 
 
@@ -57,6 +57,7 @@ namespace hostelRegistrationApp
             string usdAlis = xmlDoc.SelectSingleNode("Tarih_Date /Currency[@Kod = 'USD']/BanknoteBuying").InnerXml;
             string gbpAlis = xmlDoc.SelectSingleNode("Tarih_Date /Currency[@Kod = 'GBP']/BanknoteBuying").InnerXml;
 
+            
 
             if (cBoxCurrency.Text == "EUR")
             {
@@ -80,18 +81,26 @@ namespace hostelRegistrationApp
 
         double currency, takenAmount, sum;
 
-        private void lblCurrency_TextChanged(object sender, EventArgs e)
+        //sadece sayı girisi
+        private void lblAmount_KeyPress(object sender, KeyPressEventArgs e)
         {
-            lblCurrency.Text = lblCurrency.Text.Replace(".",",");
+            e.Handled = !char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar);
         }
 
-        private void btnHesapla_Click(object sender, EventArgs e)
+        private void lblAmount_TextChanged(object sender, EventArgs e)
         {
             currency = Convert.ToDouble(lblCurrency.Text);
             takenAmount = Convert.ToDouble(lblAmount.Text);
             sum = currency * takenAmount;
 
             lblCurExchange.Text = sum.ToString();
+
+
+        }
+
+        private void lblCurrency_TextChanged(object sender, EventArgs e)
+        {
+            lblCurrency.Text = lblCurrency.Text.Replace(".",",");
         }
     }
 }

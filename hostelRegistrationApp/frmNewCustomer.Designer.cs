@@ -92,9 +92,9 @@
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(10, 11);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox1.Size = new System.Drawing.Size(316, 292);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
@@ -114,19 +114,21 @@
             // comboBox1
             // 
             this.comboBox1.BackColor = System.Drawing.SystemColors.Info;
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "Male",
             "Female"});
             this.comboBox1.Location = new System.Drawing.Point(110, 63);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(167, 21);
             this.comboBox1.TabIndex = 2;
+            // 
             // btnSave
             // 
             this.btnSave.Location = new System.Drawing.Point(110, 245);
-            this.btnSave.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(2);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(166, 19);
             this.btnSave.TabIndex = 10;
@@ -137,7 +139,7 @@
             // dtpLeaving
             // 
             this.dtpLeaving.Location = new System.Drawing.Point(110, 222);
-            this.dtpLeaving.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dtpLeaving.Margin = new System.Windows.Forms.Padding(2);
             this.dtpLeaving.Name = "dtpLeaving";
             this.dtpLeaving.Size = new System.Drawing.Size(167, 20);
             this.dtpLeaving.TabIndex = 9;
@@ -146,7 +148,7 @@
             // dtpEntry
             // 
             this.dtpEntry.Location = new System.Drawing.Point(110, 199);
-            this.dtpEntry.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dtpEntry.Margin = new System.Windows.Forms.Padding(2);
             this.dtpEntry.Name = "dtpEntry";
             this.dtpEntry.Size = new System.Drawing.Size(167, 20);
             this.dtpEntry.TabIndex = 8;
@@ -155,7 +157,7 @@
             // 
             this.MskTxtPhone.BackColor = System.Drawing.SystemColors.Info;
             this.MskTxtPhone.Location = new System.Drawing.Point(110, 85);
-            this.MskTxtPhone.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MskTxtPhone.Margin = new System.Windows.Forms.Padding(2);
             this.MskTxtPhone.Mask = "(999) 000-0000";
             this.MskTxtPhone.Name = "MskTxtPhone";
             this.MskTxtPhone.Size = new System.Drawing.Size(167, 20);
@@ -167,7 +169,7 @@
             this.TxtPrice.Enabled = false;
             this.TxtPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.TxtPrice.Location = new System.Drawing.Point(110, 176);
-            this.TxtPrice.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TxtPrice.Margin = new System.Windows.Forms.Padding(2);
             this.TxtPrice.Name = "TxtPrice";
             this.TxtPrice.Size = new System.Drawing.Size(167, 19);
             this.TxtPrice.TabIndex = 7;
@@ -178,7 +180,7 @@
             this.TxtRoomNo.Enabled = false;
             this.TxtRoomNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.TxtRoomNo.Location = new System.Drawing.Point(110, 154);
-            this.TxtRoomNo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TxtRoomNo.Margin = new System.Windows.Forms.Padding(2);
             this.TxtRoomNo.Name = "TxtRoomNo";
             this.TxtRoomNo.Size = new System.Drawing.Size(167, 19);
             this.TxtRoomNo.TabIndex = 6;
@@ -187,7 +189,7 @@
             // 
             this.TxtIdNo.BackColor = System.Drawing.SystemColors.Info;
             this.TxtIdNo.Location = new System.Drawing.Point(110, 131);
-            this.TxtIdNo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TxtIdNo.Margin = new System.Windows.Forms.Padding(2);
             this.TxtIdNo.MaxLength = 11;
             this.TxtIdNo.Name = "TxtIdNo";
             this.TxtIdNo.Size = new System.Drawing.Size(167, 20);
@@ -197,7 +199,7 @@
             // 
             this.TxtMail.BackColor = System.Drawing.SystemColors.Info;
             this.TxtMail.Location = new System.Drawing.Point(110, 108);
-            this.TxtMail.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TxtMail.Margin = new System.Windows.Forms.Padding(2);
             this.TxtMail.Name = "TxtMail";
             this.TxtMail.Size = new System.Drawing.Size(167, 20);
             this.TxtMail.TabIndex = 4;
@@ -206,7 +208,7 @@
             // 
             this.TxtLastName.BackColor = System.Drawing.SystemColors.Info;
             this.TxtLastName.Location = new System.Drawing.Point(110, 40);
-            this.TxtLastName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TxtLastName.Margin = new System.Windows.Forms.Padding(2);
             this.TxtLastName.Name = "TxtLastName";
             this.TxtLastName.Size = new System.Drawing.Size(167, 20);
             this.TxtLastName.TabIndex = 1;
@@ -215,7 +217,7 @@
             // 
             this.TxtName.BackColor = System.Drawing.SystemColors.Info;
             this.TxtName.Location = new System.Drawing.Point(110, 17);
-            this.TxtName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TxtName.Margin = new System.Windows.Forms.Padding(2);
             this.TxtName.Name = "TxtName";
             this.TxtName.Size = new System.Drawing.Size(167, 20);
             this.TxtName.TabIndex = 0;
@@ -334,9 +336,9 @@
             this.groupBox2.Controls.Add(this.BtnNo102);
             this.groupBox2.Controls.Add(this.BtnNo101);
             this.groupBox2.Location = new System.Drawing.Point(331, 11);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox2.Size = new System.Drawing.Size(299, 292);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
@@ -346,7 +348,7 @@
             // 
             this.BtnNo109.BackColor = System.Drawing.Color.LawnGreen;
             this.BtnNo109.Location = new System.Drawing.Point(205, 156);
-            this.BtnNo109.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BtnNo109.Margin = new System.Windows.Forms.Padding(2);
             this.BtnNo109.Name = "BtnNo109";
             this.BtnNo109.Size = new System.Drawing.Size(77, 61);
             this.BtnNo109.TabIndex = 8;
@@ -358,7 +360,7 @@
             // 
             this.BtnNo108.BackColor = System.Drawing.Color.LawnGreen;
             this.BtnNo108.Location = new System.Drawing.Point(104, 155);
-            this.BtnNo108.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BtnNo108.Margin = new System.Windows.Forms.Padding(2);
             this.BtnNo108.Name = "BtnNo108";
             this.BtnNo108.Size = new System.Drawing.Size(77, 61);
             this.BtnNo108.TabIndex = 7;
@@ -370,7 +372,7 @@
             // 
             this.BtnFullRoom.BackColor = System.Drawing.Color.Red;
             this.BtnFullRoom.Location = new System.Drawing.Point(224, 245);
-            this.BtnFullRoom.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BtnFullRoom.Margin = new System.Windows.Forms.Padding(2);
             this.BtnFullRoom.Name = "BtnFullRoom";
             this.BtnFullRoom.Size = new System.Drawing.Size(58, 36);
             this.BtnFullRoom.TabIndex = 10;
@@ -382,7 +384,7 @@
             // 
             this.BtnNo106.BackColor = System.Drawing.Color.LawnGreen;
             this.BtnNo106.Location = new System.Drawing.Point(205, 88);
-            this.BtnNo106.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BtnNo106.Margin = new System.Windows.Forms.Padding(2);
             this.BtnNo106.Name = "BtnNo106";
             this.BtnNo106.Size = new System.Drawing.Size(77, 61);
             this.BtnNo106.TabIndex = 5;
@@ -394,7 +396,7 @@
             // 
             this.BtnNo107.BackColor = System.Drawing.Color.LawnGreen;
             this.BtnNo107.Location = new System.Drawing.Point(4, 156);
-            this.BtnNo107.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BtnNo107.Margin = new System.Windows.Forms.Padding(2);
             this.BtnNo107.Name = "BtnNo107";
             this.BtnNo107.Size = new System.Drawing.Size(77, 61);
             this.BtnNo107.TabIndex = 6;
@@ -406,7 +408,7 @@
             // 
             this.BtnNo105.BackColor = System.Drawing.Color.LawnGreen;
             this.BtnNo105.Location = new System.Drawing.Point(104, 88);
-            this.BtnNo105.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BtnNo105.Margin = new System.Windows.Forms.Padding(2);
             this.BtnNo105.Name = "BtnNo105";
             this.BtnNo105.Size = new System.Drawing.Size(77, 61);
             this.BtnNo105.TabIndex = 4;
@@ -418,7 +420,7 @@
             // 
             this.BtnEmptyRoom.BackColor = System.Drawing.Color.LawnGreen;
             this.BtnEmptyRoom.Location = new System.Drawing.Point(123, 245);
-            this.BtnEmptyRoom.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BtnEmptyRoom.Margin = new System.Windows.Forms.Padding(2);
             this.BtnEmptyRoom.Name = "BtnEmptyRoom";
             this.BtnEmptyRoom.Size = new System.Drawing.Size(58, 36);
             this.BtnEmptyRoom.TabIndex = 9;
@@ -430,7 +432,7 @@
             // 
             this.BtnNo103.BackColor = System.Drawing.Color.LawnGreen;
             this.BtnNo103.Location = new System.Drawing.Point(205, 17);
-            this.BtnNo103.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BtnNo103.Margin = new System.Windows.Forms.Padding(2);
             this.BtnNo103.Name = "BtnNo103";
             this.BtnNo103.Size = new System.Drawing.Size(77, 58);
             this.BtnNo103.TabIndex = 2;
@@ -442,7 +444,7 @@
             // 
             this.BtnNo104.BackColor = System.Drawing.Color.LawnGreen;
             this.BtnNo104.Location = new System.Drawing.Point(4, 88);
-            this.BtnNo104.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BtnNo104.Margin = new System.Windows.Forms.Padding(2);
             this.BtnNo104.Name = "BtnNo104";
             this.BtnNo104.Size = new System.Drawing.Size(77, 61);
             this.BtnNo104.TabIndex = 3;
@@ -454,7 +456,7 @@
             // 
             this.BtnNo102.BackColor = System.Drawing.Color.LawnGreen;
             this.BtnNo102.Location = new System.Drawing.Point(104, 17);
-            this.BtnNo102.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BtnNo102.Margin = new System.Windows.Forms.Padding(2);
             this.BtnNo102.Name = "BtnNo102";
             this.BtnNo102.Size = new System.Drawing.Size(77, 58);
             this.BtnNo102.TabIndex = 1;
@@ -466,7 +468,7 @@
             // 
             this.BtnNo101.BackColor = System.Drawing.Color.LawnGreen;
             this.BtnNo101.Location = new System.Drawing.Point(4, 17);
-            this.BtnNo101.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BtnNo101.Margin = new System.Windows.Forms.Padding(2);
             this.BtnNo101.Name = "BtnNo101";
             this.BtnNo101.Size = new System.Drawing.Size(77, 61);
             this.BtnNo101.TabIndex = 0;
@@ -483,7 +485,7 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmNewCustomer";

@@ -44,16 +44,16 @@
             this.lblAmount = new System.Windows.Forms.TextBox();
             this.lblCurExchange = new System.Windows.Forms.Label();
             this.lblCurrency = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblGiveAmount = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.btnHesapla = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.gboxCurrency.SuspendLayout();
             this.SuspendLayout();
             // 
             // lblUsd
             // 
             this.lblUsd.AutoSize = true;
-            this.lblUsd.Location = new System.Drawing.Point(12, 34);
+            this.lblUsd.Location = new System.Drawing.Point(199, 34);
             this.lblUsd.Name = "lblUsd";
             this.lblUsd.Size = new System.Drawing.Size(30, 13);
             this.lblUsd.TabIndex = 0;
@@ -62,7 +62,7 @@
             // lblEur
             // 
             this.lblEur.AutoSize = true;
-            this.lblEur.Location = new System.Drawing.Point(12, 56);
+            this.lblEur.Location = new System.Drawing.Point(199, 56);
             this.lblEur.Name = "lblEur";
             this.lblEur.Size = new System.Drawing.Size(30, 13);
             this.lblEur.TabIndex = 0;
@@ -71,7 +71,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(69, 9);
+            this.label3.Location = new System.Drawing.Point(256, 9);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(30, 13);
             this.label3.TabIndex = 0;
@@ -80,7 +80,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(131, 9);
+            this.label4.Location = new System.Drawing.Point(318, 9);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(38, 13);
             this.label4.TabIndex = 0;
@@ -89,7 +89,7 @@
             // txtUsdAlis
             // 
             this.txtUsdAlis.AutoSize = true;
-            this.txtUsdAlis.Location = new System.Drawing.Point(69, 34);
+            this.txtUsdAlis.Location = new System.Drawing.Point(256, 34);
             this.txtUsdAlis.Name = "txtUsdAlis";
             this.txtUsdAlis.Size = new System.Drawing.Size(13, 13);
             this.txtUsdAlis.TabIndex = 0;
@@ -98,7 +98,7 @@
             // txtUsdSatis
             // 
             this.txtUsdSatis.AutoSize = true;
-            this.txtUsdSatis.Location = new System.Drawing.Point(131, 34);
+            this.txtUsdSatis.Location = new System.Drawing.Point(318, 34);
             this.txtUsdSatis.Name = "txtUsdSatis";
             this.txtUsdSatis.Size = new System.Drawing.Size(13, 13);
             this.txtUsdSatis.TabIndex = 0;
@@ -107,7 +107,7 @@
             // txtEurAlis
             // 
             this.txtEurAlis.AutoSize = true;
-            this.txtEurAlis.Location = new System.Drawing.Point(69, 56);
+            this.txtEurAlis.Location = new System.Drawing.Point(256, 56);
             this.txtEurAlis.Name = "txtEurAlis";
             this.txtEurAlis.Size = new System.Drawing.Size(13, 13);
             this.txtEurAlis.TabIndex = 0;
@@ -116,7 +116,7 @@
             // txtEurSatis
             // 
             this.txtEurSatis.AutoSize = true;
-            this.txtEurSatis.Location = new System.Drawing.Point(131, 56);
+            this.txtEurSatis.Location = new System.Drawing.Point(318, 56);
             this.txtEurSatis.Name = "txtEurSatis";
             this.txtEurSatis.Size = new System.Drawing.Size(13, 13);
             this.txtEurSatis.TabIndex = 0;
@@ -125,7 +125,7 @@
             // lblGbp
             // 
             this.lblGbp.AutoSize = true;
-            this.lblGbp.Location = new System.Drawing.Point(12, 78);
+            this.lblGbp.Location = new System.Drawing.Point(199, 78);
             this.lblGbp.Name = "lblGbp";
             this.lblGbp.Size = new System.Drawing.Size(29, 13);
             this.lblGbp.TabIndex = 0;
@@ -134,7 +134,7 @@
             // txtGbpAlis
             // 
             this.txtGbpAlis.AutoSize = true;
-            this.txtGbpAlis.Location = new System.Drawing.Point(69, 78);
+            this.txtGbpAlis.Location = new System.Drawing.Point(256, 78);
             this.txtGbpAlis.Name = "txtGbpAlis";
             this.txtGbpAlis.Size = new System.Drawing.Size(13, 13);
             this.txtGbpAlis.TabIndex = 0;
@@ -143,7 +143,7 @@
             // txtGbpSatis
             // 
             this.txtGbpSatis.AutoSize = true;
-            this.txtGbpSatis.Location = new System.Drawing.Point(131, 78);
+            this.txtGbpSatis.Location = new System.Drawing.Point(318, 78);
             this.txtGbpSatis.Name = "txtGbpSatis";
             this.txtGbpSatis.Size = new System.Drawing.Size(13, 13);
             this.txtGbpSatis.TabIndex = 0;
@@ -151,10 +151,11 @@
             // 
             // cBoxCurrency
             // 
+            this.cBoxCurrency.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cBoxCurrency.FormattingEnabled = true;
             this.cBoxCurrency.Items.AddRange(new object[] {
-            "EUR",
             "USD",
+            "EUR",
             "GBP"});
             this.cBoxCurrency.Location = new System.Drawing.Point(6, 39);
             this.cBoxCurrency.Name = "cBoxCurrency";
@@ -164,19 +165,19 @@
             // 
             // gboxCurrency
             // 
-            this.gboxCurrency.Controls.Add(this.btnHesapla);
             this.gboxCurrency.Controls.Add(this.lblAmount);
             this.gboxCurrency.Controls.Add(this.lblCurExchange);
             this.gboxCurrency.Controls.Add(this.lblCurrency);
             this.gboxCurrency.Controls.Add(this.cBoxCurrency);
+            this.gboxCurrency.Controls.Add(this.lblGiveAmount);
             this.gboxCurrency.Controls.Add(this.label2);
             this.gboxCurrency.Controls.Add(this.label1);
-            this.gboxCurrency.Location = new System.Drawing.Point(303, 9);
+            this.gboxCurrency.Location = new System.Drawing.Point(94, 94);
             this.gboxCurrency.Name = "gboxCurrency";
-            this.gboxCurrency.Size = new System.Drawing.Size(411, 259);
+            this.gboxCurrency.Size = new System.Drawing.Size(352, 259);
             this.gboxCurrency.TabIndex = 2;
             this.gboxCurrency.TabStop = false;
-            this.gboxCurrency.Text = "Given/Taken";
+            this.gboxCurrency.Text = "TRY Change";
             // 
             // lblAmount
             // 
@@ -184,6 +185,8 @@
             this.lblAmount.Name = "lblAmount";
             this.lblAmount.Size = new System.Drawing.Size(100, 20);
             this.lblAmount.TabIndex = 3;
+            this.lblAmount.TextChanged += new System.EventHandler(this.lblAmount_TextChanged);
+            this.lblAmount.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lblAmount_KeyPress);
             // 
             // lblCurExchange
             // 
@@ -204,14 +207,14 @@
             this.lblCurrency.Text = "0";
             this.lblCurrency.TextChanged += new System.EventHandler(this.lblCurrency_TextChanged);
             // 
-            // label1
+            // lblGiveAmount
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 23);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(69, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Alınan Döviz:";
+            this.lblGiveAmount.AutoSize = true;
+            this.lblGiveAmount.Location = new System.Drawing.Point(258, 23);
+            this.lblGiveAmount.Name = "lblGiveAmount";
+            this.lblGiveAmount.Size = new System.Drawing.Size(74, 13);
+            this.lblGiveAmount.TabIndex = 0;
+            this.lblGiveAmount.Text = "Verilen Miktar:";
             // 
             // label2
             // 
@@ -222,22 +225,21 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "Alınan Döviz Tutar:";
             // 
-            // btnHesapla
+            // label1
             // 
-            this.btnHesapla.Location = new System.Drawing.Point(84, 111);
-            this.btnHesapla.Name = "btnHesapla";
-            this.btnHesapla.Size = new System.Drawing.Size(75, 23);
-            this.btnHesapla.TabIndex = 4;
-            this.btnHesapla.Text = "Hesapla";
-            this.btnHesapla.UseVisualStyleBackColor = true;
-            this.btnHesapla.Click += new System.EventHandler(this.btnHesapla_Click);
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(6, 23);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(69, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Alınan Döviz:";
             // 
             // frmCurrencyExchange
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(583, 450);
             this.Controls.Add(this.gboxCurrency);
             this.Controls.Add(this.txtGbpSatis);
             this.Controls.Add(this.txtEurSatis);
@@ -284,6 +286,6 @@
         private System.Windows.Forms.Label lblCurExchange;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button btnHesapla;
+        private System.Windows.Forms.Label lblGiveAmount;
     }
 }
